@@ -36,3 +36,10 @@ class pelajar : public orang {
     }
 };
 
+int main() {
+    pelajar siswa1("galih permana", "SMA N 1 PURWODADI");
+    cout << siswa1.perkenalan();
+    cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
+
+    return 0;
+}
