@@ -10,7 +10,7 @@ public :
         cout << "jantung dihidupkan\n";
     }
     ~jantung(){
-        cout <<"janting dimatikan\n";
+        cout <<"jantung dimatikan\n";
     }
 };
 #endif
